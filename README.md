@@ -1,5 +1,9 @@
 # forms-dynamically
-This is a npm package that allows you to convert an HTML Form to JSON and back
+
+## Introduction
+In situations where you wish to generate fomrs dynamically form generaation is required. In such a use case it is very helpful to convert HTML forms into code compatible formats, in this case JSON. Hence, in short, this is a npm package that allows you to convert an HTML Form to JSON and back.
+
+# Documentation and Guide
 ## Installation
 ```bash
 npm i forms-dynamically
@@ -67,3 +71,12 @@ The idea is to be able to store a structure of the form in JSON format.
 
 The **jsonToForm()** function will parse the JSON which we generated in the previous function and generate
 a form HTML and populate the form HTML in the div given with targetDivId
+
+# Future Scope 
+The coming up features in this package is to be able to convert forms not only to JSON, but also to XML and back
+
+# Language used
+(Vannila) JavaScript
+
+# Author 
+[Muskan Vaswan](https://github.com/muskanvaswan)
